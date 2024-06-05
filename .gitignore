@@ -1,0 +1,9 @@
+# Editor backup files
+*~
+.#.*
+\#*
+
+.bak
+.swp
+.idea/
+

@@ -1,0 +1,14 @@
+** Custom GitLab Toolbox with PostgreSQL Client Tools
+This Docker image is based on the ~registry.gitlab.com/gitlab-org/build/cng/gitlab-toolbox-ce:v16.11.1~ image with PostgreSQL 16 client tools installed.
+
+*** Features
+
+- Uses the gitlab-toolbox-ce base image for GitLab-related tasks.
+- Installs PostgreSQL 16 client tools for database management.
+
+*** Entrypoint
+
+- The entrypoint is set to the existing entrypoint.sh script from the base image.
+
+This Dockerfile customizes the gitlab-toolbox-ce image by installing PostgreSQL 16 client tools. This setup ensures compatibility with PostgreSQL 16 while maintaining the existing functionality of the gitlab-toolbox-ce image.
+For more information about configuring and using the Gitlab's images, please refer to their documentation at https://gitlab.com/gitlab-org/build/CNG
