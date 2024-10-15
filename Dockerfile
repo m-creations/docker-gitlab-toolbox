@@ -1,4 +1,4 @@
-FROM registry.gitlab.com/gitlab-org/build/cng/gitlab-toolbox-ce:v16.11.1
+FROM registry.gitlab.com/gitlab-org/build/cng/gitlab-toolbox-ce:v17.4.2
 
 # switch to root user
 USER root
